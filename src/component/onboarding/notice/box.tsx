@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import * as _ from './style';
-import { BoxProps } from './types';
+import type { BoxProps } from './types';
 
 const formatDate = (iso: string) => {
   const d = new Date(iso);

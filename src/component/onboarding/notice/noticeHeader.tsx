@@ -1,6 +1,6 @@
 import Searchicon from '@_assets/onboarding/search.svg';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { HeaderProps } from './types';
+import type { HeaderProps } from './types';
 import * as _ from './style';
 
 export default function Header11({ value, onChange }: HeaderProps) {
