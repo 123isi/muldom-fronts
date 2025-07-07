@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@_assets/*": ["src/assets/*"],
+      "@_atom/*": ["src/atom/*"],
+      "@_components/*": ["src/component/*"],
+      "@_componentsModal/*": ["src/component/modal/*"],
+      "@_componentsOnboarding/*": ["src/component/onboarding/*"],
+      "@_styles/*": ["src/font.css"]
+    },
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
